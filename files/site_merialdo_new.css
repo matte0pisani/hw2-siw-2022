@@ -1,0 +1,122 @@
+:root {
+  --primary-color: #0099cc;
+  --secondary-color: #ffcc99;
+  --background: ghostwhite;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Roboto';
+  background-color: ghostwhite;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: whitesmoke;
+  height: 100%;
+  font-family:;
+}
+
+header {
+  background-image: url(https://www.american.edu/spa/data-science/images/datascience-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 12.5%;
+  padding: 1%;
+  font-family: sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: var(--background);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+section {
+  flex-grow: 1;
+
+  margin: 2.5% 4%;
+}
+  
+a:visited {
+  color: #000066;
+  }
+
+a:hover {
+  text-decoration: underline; 
+  color: midnightblue; 
+  background-color: #ffcc99;
+  font-weight: bold;
+  }
+
+div.column {
+  flex-grow: 1;
+  flex-basis: 0.3333em;
+
+  # border-right: 3px var(--primary-color) dotted;
+  padding: 0% 1% 1% 1%;
+}
+
+section.horizontal_sect {
+  border-color: var(--primary-color);
+  border-style: solid;
+  border-radius: 7px;
+  background-color: white;
+  padding: 0%;
+}
+
+section.horizontal_sect h3 {
+  margin: 0;
+  padding-left: 1%;
+  border-radius: 7px 7px 0px 0px;
+  border-bottom: 1px solid var(--primary-color);
+  background-color: lightblue;
+}
+
+section.horizontal_sect h4 {
+  margin-left: 3%;
+  margin-bottom: 1%;
+}
+
+section.horizontal_sect ul {
+  padding-right: 1%;
+}
+
+.internal_paragraph {
+  margin: 1%;
+}
+
+.warning {
+  background-color: var(--secondary-color);
+}
+
+#column_sect {
+  display: flex;
+  justify-content: space-between;
+
+  # border: 3px var(--primary-color) dotted;
+  border-radius: 30px;
+  margin: 2.5% 10%;
+}
+
+#profile_pic {
+  margin: 0% 3%;
+  border: 2px var(--primary-color) solid;
+}
+
+#last_column {
+  border: none;
+}
+
+#name h1 {
+  font-size: 3em;
+}
+
+#name h3 {
+  font-size: 2em;
+}
+
